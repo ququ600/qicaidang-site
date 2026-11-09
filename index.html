@@ -14,7 +14,6 @@ body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 -apple-system,
 h1{font-size:40px;line-height:1.25;margin:0 0 14px;letter-spacing:-.01em}
 h1 small{display:block;font-size:16px;font-weight:400;color:var(--sub);letter-spacing:0;margin-top:12px}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:44px 0 0}
-@media(max-width:720px){.grid{grid-template-columns:1fr}h1{font-size:30px}}
 a.card{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px 24px;text-decoration:none;color:inherit;transition:.18s}
 a.card:hover{border-color:#cfd3d8;transform:translateY(-2px);box-shadow:0 8px 24px rgba(20,20,30,.06)}
 .card .tag{display:inline-block;font-size:12px;padding:2px 9px;border-radius:20px;margin-bottom:14px}
@@ -25,6 +24,8 @@ a.card:hover{border-color:#cfd3d8;transform:translateY(-2px);box-shadow:0 8px 24
 .card .num{margin-top:16px;font-size:13px;color:#9ca3af}
 .note{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);font-size:13px;color:var(--sub);line-height:1.9}
 .note b{color:#4b5563;font-weight:600}
+@media(max-width:720px){.grid{grid-template-columns:1fr}h1{font-size:30px}}
+@media(max-width:420px){.wrap{padding:36px 16px 56px}h1{font-size:25px}h1 small{font-size:14px}a.card{padding:20px 18px;border-radius:12px}.card h2{font-size:19px}.note{font-size:12.5px;margin-top:28px}}
 </style>
 </head>
 <body>
