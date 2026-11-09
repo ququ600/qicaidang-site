@@ -1,0 +1,8 @@
+本包包含两个离线站点（双击各自目录下的 index.html 打开）：
+
+1. xitek-archive —— 色影无忌器材库原站存档（4,744 件），仅含原站内容。
+2. qicaidang   —— 器材党，机身与镜头参数库（3,467 件），
+   含外部补录、人工整理规格与来源标注。
+
+两站共用 xitek-archive/images 与 xitek-archive/articles 目录，请勿单独移动子目录。
+首页右上角可互相切换。
