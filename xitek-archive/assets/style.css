@@ -112,6 +112,8 @@ footer{border-top:1px solid var(--line);margin-top:40px;padding:22px 0 38px;colo
 .mfilter>summary{display:none}
 body{-webkit-tap-highlight-color:transparent}
 img{-webkit-user-drag:none}
+.ad{margin:16px 0;display:flex;justify-content:center;align-items:center;overflow:hidden}
+.ad-ph{width:100%;min-height:70px;border:1px dashed #cfd6de;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#9aa4b0;font-size:12px;background:#fafbfc}
 @media(max-width:900px){
 .layout{grid-template-columns:1fr}
 .side{position:static}
