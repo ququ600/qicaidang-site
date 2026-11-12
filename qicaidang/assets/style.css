@@ -61,9 +61,10 @@ mark{background:#fff1a8;color:inherit;padding:0 1px;border-radius:2px}
 .crumb{padding:14px 0 0;color:var(--muted);font-size:13px}
 .crumb a{color:var(--muted)}
 .hero{display:grid;grid-template-columns:280px minmax(0,1fr);gap:26px;padding:16px 0 4px}
-.hero .pic{height:280px;background:#fff;border:1px solid var(--line);border-radius:14px;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.hero .pic img{max-width:100%;max-height:100%;object-fit:contain;padding:10px}
+.hero .pic{height:280px;background:#fff;border:1px solid var(--line);border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+.hero .pic img{max-width:100%;max-height:calc(100% - 24px);object-fit:contain;padding:10px 10px 0}
 .hero .pic .no{color:#b6bcc6;font-size:13px}
+.pic-src{font-size:11px;color:#8a94a0;padding:0 8px 8px;text-align:center;line-height:1.35}
 .hero .meta{min-width:0}
 .brand{display:block;color:var(--accent);font-size:14px;font-weight:600;margin-bottom:2px}
 .hero h1{font-size:26px;line-height:1.25;margin:0 0 8px}
